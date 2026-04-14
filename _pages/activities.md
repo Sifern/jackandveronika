@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
+
 <div class="wrapper-main cd-container">
 
     <section class="post">

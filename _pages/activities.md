@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activities
-permalink: /activites/
+permalink: /activities/
 ---
 <div class="wrapper-main cd-container">
 

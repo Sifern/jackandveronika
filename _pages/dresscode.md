@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Dresscode
 permalink: /dresscode/
 ---
 <div class="wrapper-main cd-container">

@@ -2,48 +2,122 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
+ id="bar"></div>
 
-        <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-        </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<div class="wrapper-container">
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+    <!-- HEADER -->
+    <div class="wrapper-masthead">
+        <header class="masthead cd-container clearfix">
+            
+            <div class="site-info">
+                <h1 class="site-name">Emma & Liam</h1>
+                <p class="site-description">We're getting married</p>
+            </div>
 
-  <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
+            <nav>
+                <a href="#story">Story</a>
+                <a href="#details">Details</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#rsvp">RSVP</a>
+            </nav>
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
+        </header>
+    </div>
 
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
-</div>
+    <!-- MAIN CONTENT -->
+    <div class="wrapper-main cd-container">
+
+        <!-- STORY -->
+        <section id="story" class="post">
+            <h1>Our Story</h1>
+            <p class="post_date">Lorem ipsum dolor sit amet</p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            </p>
+
+            <blockquote>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </blockquote>
+
+            <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </section>
+
+        <!-- DETAILS -->
+        <section id="details" class="post">
+            <h1>Wedding Details</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Excepteur sint occaecat cupidatat non proident.
+            </p>
+
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Sed do eiusmod tempor</li>
+            </ul>
+        </section>
+
+        <!-- TIMELINE (uses your timeline CSS 👀) -->
+        <section id="timeline">
+            <h1>Wedding Day Timeline</h1>
+
+            <div id="cd-timeline" class="cd-container">
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-picture"></div>
+
+                    <div class="cd-timeline-content">
+                        <h2>Ceremony</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <span class="cd-date">14:00</span>
+                    </div>
+                </div>
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-location"></div>
+
+                    <div class="cd-timeline-content">
+                        <h2>Reception</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <span class="cd-date">17:00</span>
+                    </div>
+                </div>
+
+                <div class="cd-timeline-block">
+                    <div class="cd-timeline-img cd-movie"></div>
+
+                    <div class="cd-timeline-content">
+                        <h2>Party</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <span class="cd-date">20:00</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section id="rsvp" class="post">
+            <h1>RSVP</h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Please let us know if you can attend.
+            </p>
+
+            <div class="tinyletterForm">
+                <input type="email" class="tlemail" placeholder="Your email">
+                <br>
+                <button class="subscribeBtn">Confirm Attendance</button>
+            </div>
+        </section>
+
+    </div>

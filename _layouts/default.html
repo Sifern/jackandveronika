@@ -1,26 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+</head>
+
 <body>
   <div class="wrapper-container">
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="site-header">
-          <img src="{{ site.baseurl }}/images/JeronikaLogo.png" ...>
 
-          <nav class="nav">
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/dresscode">Practical<br>Information</a>
-            <a href="{{ site.baseurl }}/activities">Activity Sign-Up</a>
-            <a href="{{ site.baseurl }}/gifts">Registry</a>
-          </nav>
-        </header>
-      </div>
+    <!-- HEADER -->
+    <div class="wrapper-masthead">
+      <header class="site-header">
+        <img src="{{ site.baseurl }}/images/JeronikaLogo.png"
+             alt="Camp Jeronika logo"
+             class="logo">
+
+        <nav class="nav">
+          <a href="{{ site.baseurl }}/dresscode">Practical<br>Information</a>
+          <a href="{{ site.baseurl }}/activities">Activity Sign-Up</a>
+          <a href="{{ site.baseurl }}/gifts">Registry</a>
+        </nav>
+      </header>
     </div>
 
+    <!-- MAIN -->
     <div class="wrapper-main">
-      <main id="main" role="main" class="container page-content">
+      <main class="page-content">
         {{ content }}
       </main>
     </div>
-  </div>
 
-  {% include analytics.html %}
+  </div>
 </body>
+</html>

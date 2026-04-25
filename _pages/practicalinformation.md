@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /dresscode/
+permalink: /practicalinformation/
 ---
 
 <div class="content-box compact-content-box">

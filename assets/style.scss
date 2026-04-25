@@ -22,15 +22,18 @@ html, body {
 .wrapper-container {
   min-height: 100vh;
 
-  background-color: #f3f1e7; /* 👈 MATCH your paper tone */
+  background:
+    linear-gradient(
+      to bottom,
+      #f3f1e7 0%,
+      #f3f1e7 40%,
+      transparent 60%
+    ),
+    url("../images/backgrounddesign.png");
 
-  background-image: url("../images/backgrounddesign.png");
   background-repeat: no-repeat;
-
-  /* THIS is the key */
-  background-size: 100% auto;   /* full width */
-  background-position: center 65%; /* controls vertical placement */
-}
+  background-size: 100% auto;
+  background-position: center 65%;
 
 /* Header */
 

@@ -33,9 +33,9 @@ html, body {
     repeat-y;
 
   background-size:
-    100% auto,
+    contain,
     100% auto;
-
+  
   background-position:
     center top,
     center bottom;

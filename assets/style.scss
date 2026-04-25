@@ -134,23 +134,14 @@ html, body {
 
 @media (max-width: 600px) {
   .nav {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    gap: 16px;
     right: 10px;
-
-    display: flex;
-    flex-wrap: wrap; /* 👈 THIS enables 2 lines */
-    gap: 6px 14px; 
-
-    max-width: 180px;
-    justify-content: flex-end;
   }
 
   .nav a {
-    width: 70px;            /* 👈 forces text to wrap */
+    width: 70px;
     text-align: center;
-    white-space: normal;    /* allow wrapping */
+    white-space: normal;
     line-height: 1.1;
   }
 }

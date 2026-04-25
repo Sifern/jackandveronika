@@ -87,6 +87,4 @@ permalink: /activities/
       activity option, please let us know if you’d like to join the yoga too!
     </strong>
   </p>
-
-  <iframe src="https://app.youform.com/forms/gpnvhnq3"width="100%"height="800"style="border:0;"></iframe>
 </div>

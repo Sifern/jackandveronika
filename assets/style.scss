@@ -92,14 +92,17 @@ html, body {
   min-height: calc(100vh - 75px);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 120px;
 }
+
+/* Center content */
 
 .page-content {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /* Homepage welcome box */
@@ -107,9 +110,11 @@ html, body {
 .welcome-box {
   width: clamp(300px, 30vw, 520px);
   min-height: clamp(235px, 24vw, 400px);
+
   background: #2f7d1f;
   color: white;
   border: 2px solid #1d1d1d;
+
   padding: clamp(22px, 2.2vw, 42px);
   font-size: clamp(11px, 0.9vw, 17px);
   line-height: 1.25;
@@ -129,12 +134,10 @@ html, body {
   }
 }
 
-/* Other page green box */
+/* Other pages green box */
 
 .content-box {
   width: clamp(320px, 55vw, 800px);
-  max-height: 70vh;
-  overflow-y: auto;
 
   background: #2f7d1f;
   color: white;
@@ -143,6 +146,8 @@ html, body {
   padding: clamp(24px, 2.5vw, 48px);
   font-size: clamp(12px, 1vw, 16px);
   line-height: 1.5;
+
+  margin: 0 auto 80px;
 
   h1 {
     text-align: center;
@@ -156,8 +161,8 @@ html, body {
   }
 
   h3 {
-  font-size: clamp(13px, 1.1vw, 18px);
-  margin: 16px 0 8px;
+    font-size: clamp(13px, 1.1vw, 18px);
+    margin: 16px 0 8px;
   }
 
   p {
@@ -192,18 +197,45 @@ html, body {
     height: 80px;
   }
 
-  .welcome-box,
-  .content-box {
+  .wrapper-main {
+    padding-top: 90px;
+  }
+
+  .welcome-box {
     width: 90%;
     max-width: 320px;
     min-height: auto;
-    max-height: none;
     padding: 22px;
     font-size: 11px;
 
     h1 {
       font-size: 12px;
       margin-bottom: 14px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  .content-box {
+    width: 90%;
+    max-width: 500px;
+    padding: 22px;
+    font-size: 11px;
+    margin-bottom: 60px;
+
+    h1 {
+      font-size: 16px;
+      margin-bottom: 14px;
+    }
+
+    h2 {
+      font-size: 13px;
+    }
+
+    h3 {
+      font-size: 12px;
     }
 
     p {

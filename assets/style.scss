@@ -190,17 +190,17 @@ html, body {
 
 @media (max-width: 600px) {
   .nav {
-    gap: 16px;
-    right: 10px;
-  }
+  gap: 10px;   /* smaller spacing */
+  right: 8px;  /* slight adjustment */
+}
 
-  .nav a {
-    width: 70px;
-    text-align: center;
-    white-space: normal;
-    line-height: 1.1;
-    font-size: 12px;
-  }
+.nav a {
+  width: 58px;        /* narrower → forces better wrapping */
+  text-align: center;
+  white-space: normal;
+  line-height: 1.05;  /* tighter lines */
+  font-size: 11px;    /* slightly smaller text */
+}
 
   .logo {
     top: -10px;

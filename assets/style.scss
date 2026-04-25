@@ -20,11 +20,15 @@ html, body {
 
 .wrapper-container {
   min-height: 100vh;
+
+  background-color: #f3f1e7; /* 👈 MATCH your paper tone */
+
   background-image: url("../images/backgrounddesign.png");
-  background-size: contain;
-  background-position: center bottom;
-  background-position: center top;
   background-repeat: no-repeat;
+
+  /* THIS is the key */
+  background-size: 100% auto;   /* full width */
+  background-position: center 65%; /* controls vertical placement */
 }
 
 /* Header */

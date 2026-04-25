@@ -21,7 +21,7 @@ html, body {
 .wrapper-container {
   min-height: 100vh;
   background-image: url("../images/backgrounddesign.png");
-  background-size: 100% auto;
+  background-size: contain;
   background-position: center bottom;
   background-position: center top;
   background-repeat: no-repeat;

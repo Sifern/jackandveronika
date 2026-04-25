@@ -177,6 +177,15 @@ html, body {
   }
 }
 
+.content-box p strong {
+  display: block;
+  margin-bottom: 14px;
+}
+
+.content-box u {
+  text-underline-offset: 2px;
+}
+
 /* Mobile */
 
 @media (max-width: 600px) {

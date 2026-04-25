@@ -1,53 +1,53 @@
 ---
 ---
 
-//
-// IMPORTS
-//
-
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
-
-/**************/
-/* BASE RULES */
-/**************/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-
-html {
-  font-size: 100%;
-  height: 100%;
-}
-
-body {
-  background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #404040;
-  line-height: 1.7;
-  font-weight: 400;
-  font-size: 18px;
-  height: 100%;
-}
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 100%;
+  min-height: 100%;
+}
+
 body {
   margin: 0;
+  min-height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   background: #f7f5ec;
+  color: #404040;
+}
+
+/* Full page background */
+
+.wrapper-container {
+  min-height: 100vh;
+  background-image: url("../images/backgrounddesign.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
 }
 
 /* Header */
 
-.site-header {
-  position: relative;
-  height: 55px;
+.wrapper-masthead {
   border: 1px solid #222;
   border-bottom: 2px solid #111;
   background: rgba(245, 247, 239, 0.8);
+}
+
+.container {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+.site-header {
+  position: relative;
+  height: 55px;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -69,32 +69,32 @@ body {
   gap: 42px;
   align-items: center;
   padding-bottom: 4px;
+
+  a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.05;
+    text-align: center;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
-.nav a {
-  color: #000;
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.05;
-  text-align: center;
-}
+/* Main page area */
 
-.nav a:hover {
-  text-decoration: underline;
-}
-
-/* Main background */
-
-.hero {
+.wrapper-main {
   min-height: calc(100vh - 55px);
-  background-image: url("../images/backgrounddesign.png");
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
+}
+
+.page-content {
+  min-height: calc(100vh - 55px);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 120px 20px 80px;
+  padding: 230px 20px 80px;
 }
 
 /* Welcome box */
@@ -108,20 +108,26 @@ body {
   padding: 22px 21px;
   font-size: 11px;
   line-height: 1.12;
+
+  h1 {
+    margin: 0 0 16px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  p {
+    margin: 0 0 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
-.welcome-box h1 {
-  margin: 0 0 16px;
-  text-align: center;
-  font-size: 12px;
-}
+/* Optional footer */
 
-.welcome-box p {
-  margin: 0 0 12px;
-}
-
-.welcome-box p:last-child {
-  margin-bottom: 0;
+.wrapper-footer {
+  display: none;
 }
 
 /* Responsive */
@@ -129,7 +135,6 @@ body {
 @media (max-width: 600px) {
   .site-header {
     height: 78px;
-    align-items: flex-end;
     padding-right: 10px;
   }
 
@@ -141,10 +146,14 @@ body {
   .nav {
     gap: 16px;
     padding-left: 80px;
+
+    a {
+      font-size: 12px;
+    }
   }
 
-  .nav a {
-    font-size: 12px;
+  .page-content {
+    padding: 180px 20px 60px;
   }
 
   .welcome-box {
@@ -153,22 +162,5 @@ body {
   }
 }
 
-.wrapper-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 89px;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-//@import "highlights";
 @import "darcula";
 @import "svg-icons";

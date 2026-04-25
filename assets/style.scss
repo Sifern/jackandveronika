@@ -108,6 +108,7 @@ html, body {
 /* Homepage welcome box */
 
 .welcome-box {
+  font-family: "Cormorant Garamond", "Kailasa", serif;
   width: clamp(300px, 30vw, 520px);
   min-height: clamp(235px, 24vw, 400px);
 
@@ -137,6 +138,7 @@ html, body {
 /* Other pages green box */
 
 .content-box {
+  font-family: "Cormorant Garamond", "Kailasa", serif;
   width: clamp(320px, 55vw, 800px);
 
   background: #2f7d1f;

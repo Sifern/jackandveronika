@@ -63,7 +63,9 @@ html, body {
 .nav {
   position: absolute;
   right: 20px;
-  bottom: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+
   display: flex;
   gap: 40px;
 

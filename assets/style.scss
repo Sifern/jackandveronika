@@ -22,18 +22,23 @@ html, body {
 .wrapper-container {
   min-height: 100vh;
 
-  background:
-    linear-gradient(
-      to bottom,
-      #f3f1e7 0%,
-      #f3f1e7 40%,
-      transparent 60%
-    ),
-    url("../images/backgrounddesign.png");
+  background-color: #f3f1e7;
 
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center 65%;
+  background-image:
+    url("../images/backgrounddesign.png"),   /* main image */
+    url("../images/backgroundtexture.png");  /* repeating piece */
+
+  background-repeat:
+    no-repeat,
+    repeat-y;
+
+  background-size:
+    100% auto,
+    100% auto;
+
+  background-position:
+    center top,
+    center bottom;
 }
 
 /* Header */

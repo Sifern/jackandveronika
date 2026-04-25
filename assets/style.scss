@@ -200,11 +200,17 @@ html, body {
 }
 
 .nav a {
-  width: 58px;        /* narrower → forces better wrapping */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 58px;
+  height: 34px;
+
   text-align: center;
   white-space: normal;
-  line-height: 1.05;  /* tighter lines */
-  font-size: 11px;    /* slightly smaller text */
+  line-height: 1.05;
+  font-size: 11px;
 }
 
   .logo {

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /gifts/
+permalink: /registry/
 ---
 
 <div class="content-box compact-content-box">

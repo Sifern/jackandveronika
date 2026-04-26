@@ -187,8 +187,9 @@ html, body {
   }
 }
 
-.content-box p strong {
-  margin-bottom: 14px;
+.content-box strong,
+.welcome-box strong {
+  font-weight: inherit;
 }
 
 .content-box u {

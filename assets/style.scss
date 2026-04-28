@@ -25,8 +25,8 @@ html, body {
   background-color: #f3f1e7;
 
   background-image:
-    url("../images/backgrounddesign.png"),   /* main image */
-    url("../images/backgroundtexture.png");  /* repeating piece */
+    url("../images/backgrounddesign.png"),
+    url("../images/backgroundtexture.png");
 
   background-repeat:
     no-repeat,
@@ -35,8 +35,10 @@ html, body {
   background-size:
     100% auto,
     100% auto;
-  
-  background-position: background-position: center 65%;
+
+  background-position:
+    center 65%,
+    center bottom;
 }
 
 /* Header */
@@ -114,8 +116,8 @@ html, body {
 .welcome-box {
   font-family: "Cormorant Garamond", "Kailasa", serif;
 
-  width: 50vw;
-  min-width: 320px;          
+  width: 60vw;         /* 👈 visually closer to “half” */
+  min-width: 320px;
 
   background: #2f7d1f;
   color: white;
@@ -147,15 +149,16 @@ html, body {
 .content-box {
   font-family: "Kailasa", "Cormorant Garamond", serif;
 
-  width: 50vw; 
-  min-width: 340px;   
+  width: 60vw;       /* 👈 adjusted for visual balance */
+  min-width: 340px;
+  box-sizing: border-box;
 
   background: #2f7d1f;
   color: white;
   border: 2px solid #1d1d1d;
 
   padding: clamp(24px, 2.5vw, 48px);
-  font-size: clamp(13px, 1.05vw, 18px);  /* 👈 slightly larger for readability */
+  font-size: clamp(13px, 1.05vw, 18px);
   line-height: 1.5;
 
   font-weight: 700;
@@ -201,23 +204,23 @@ html, body {
 
 @media (max-width: 600px) {
   .nav {
-  gap: 10px;   /* smaller spacing */
-  right: 8px;  /* slight adjustment */
-}
+    gap: 10px;
+    right: 8px;
+  }
 
-.nav a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  .nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  width: 58px;
-  height: 34px;
+    width: 58px;
+    height: 34px;
 
-  text-align: center;
-  white-space: normal;
-  line-height: 1.05;
-  font-size: 12px;
-}
+    text-align: center;
+    white-space: normal;
+    line-height: 1.05;
+    font-size: 12px;
+  }
 
   .logo {
     top: -10px;

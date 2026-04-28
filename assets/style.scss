@@ -105,7 +105,7 @@ html, body {
 .welcome-box {
   font-family: "Cormorant Garamond", "Kailasa", serif;
 
-  width: 60vw;
+  width: 50vw;
   min-width: 320px;
 
   background: #2f7d1f;
@@ -115,13 +115,13 @@ html, body {
   font-weight: 700;
 
   padding: 2.5vw;
-  font-size: 2vw;
+  font-size: 1.6vw;
   line-height: 1.35;
 
   h1 {
     margin: 0 0 1.5vw;
     text-align: center;
-    font-size: 1.4vw;
+    font-size: 2vw;
   }
 
   p {
@@ -138,7 +138,7 @@ html, body {
 .content-box {
   font-family: "Kailasa", "Cormorant Garamond", serif;
 
-  width: 60vw;
+  width: 50vw;
   min-width: 340px;
 
   background: #2f7d1f;
@@ -148,24 +148,24 @@ html, body {
   font-weight: 700;
 
   padding: 2.5vw;
-  font-size: 2vw;
+  font-size: 1.6vw;
   line-height: 1.45;
 
   margin: 0 auto 5vw;
 
   h1 {
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 2vw;
     margin: 0 0 1.8vw;
   }
 
   h2 {
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     margin: 1.6vw 0 0.8vw;
   }
 
   h3 {
-    font-size: 1.2vw;
+    font-size: 1.45vw;
     margin: 1.4vw 0 0.6vw;
   }
 
@@ -223,12 +223,11 @@ html, body {
   .welcome-box {
     width: 90%;
     max-width: 320px;
-    min-height: auto;
     padding: 22px;
     font-size: 11px;
 
     h1 {
-      font-size: 12px;
+      font-size: 13px;
       margin-bottom: 14px;
     }
 

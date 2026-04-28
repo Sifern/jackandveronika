@@ -24,21 +24,10 @@ html, body {
 
   background-color: #f3f1e7;
 
-  background-image:
-    url("../images/backgrounddesign.png"),
-    url("../images/backgroundtexture.png");
-
-  background-repeat:
-    no-repeat,
-    repeat-y;
-
-  background-size:
-    100% auto,
-    100% auto;
-
-  background-position:
-    center 65%,
-    center bottom;
+  background-image: url("../images/backgrounddesign.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center 65%;
 }
 
 /* Header */

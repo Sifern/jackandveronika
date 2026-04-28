@@ -32,7 +32,9 @@ html, body {
     no-repeat,
     repeat-y;
 
-  background-size: 100% auto;
+  background-size:
+    100% auto,
+    100% auto;
   
   background-position: background-position: center 65%;
 }

@@ -3,92 +3,69 @@
 
 @import "reset";
 @import "variables";
-
 /* Base */
-
 * {
   box-sizing: border-box;
 }
-
 html, body {
   margin: 0;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   background: #f3f1e7;
 }
-
 /* Background */
-
 .wrapper-container {
   min-height: 100vh;
-
   background-color: #f3f1e7;
-
   background-image: url("../images/backgrounddesign.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center 65%;
 }
-
 /* Header */
-
 .wrapper-masthead {
-  height: clamp(55px, 4vw, 80px);
+  height: clamp(72px, 5.2vw, 104px);
   margin-top: clamp(35px, 1.5vw, 32px);
   border: 2px solid #222;
   background: rgba(245, 247, 239, 0.9);
 }
-
 .site-header {
   position: relative;
   height: 100%;
 }
-
 /* Logo */
-
 .logo {
   position: absolute;
-
-  width: clamp(120px, 6vw, 120px);
-  height: clamp(120px, 6vw, 120px);
-
+  width: clamp(156px, 7.8vw, 156px);
+  height: clamp(156px, 7.8vw, 156px);
   top: 50%;
   left: clamp(10px, 1vw, 20px);
   transform: translateY(-50%);
-
   border-radius: 50%;
   z-index: 10;
   border: 1px solid #111;
 }
-
 /* Navigation */
-
 .nav {
   position: absolute;
   right: clamp(20px, 2vw, 40px);
   top: 50%;
   transform: translateY(-50%);
-
   display: flex;
   gap: clamp(32px, 2.5vw, 56px);
-
   a {
     font-family: "Old English Text MT", "UnifrakturCook", serif;
     text-decoration: none;
     color: black;
-
     font-size: clamp(18px, 1.35vw, 26px);
     text-align: center;
     line-height: 1.1;
-
     &:hover {
       text-decoration: underline;
     }
   }
 }
-
 /* Main */
-
 .wrapper-main {
   min-height: calc(100vh - 75px);
   display: flex;
@@ -96,173 +73,133 @@ html, body {
   align-items: flex-start;
   padding-top: 220px;
 }
-
 /* Center content */
-
 .page-content {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
-
 /* Homepage welcome box */
-
 .welcome-box {
   font-family: "Cormorant Garamond", "Kailasa", serif;
-
   width: 50vw;
   min-width: 320px;
-
   background: #2f7d1f;
   color: white;
   border: 2px solid #1d1d1d;
-
   font-weight: 700;
-
   padding: 2.5vw;
   font-size: 1.3vw;
   line-height: 1.35;
-
   h1 {
     margin: 0 0 1.5vw;
     text-align: center;
     font-size: 1.9vw;
   }
-
   p {
     margin: 0 0 1vw;
-
     &:last-child {
       margin-bottom: 0;
     }
   }
 }
-
 /* Other pages green box */
-
 .content-box {
   font-family: "Kailasa", "Cormorant Garamond", serif;
-
   width: 50vw;
   min-width: 340px;
-
   background: #2f7d1f;
   color: white;
   border: 2px solid #1d1d1d;
-
   font-weight: 700;
-
   padding: 2.5vw;
   font-size: 1.3vw;
   line-height: 1.45;
-
   margin: 0 auto 5vw;
-
   h1 {
     text-align: center;
     font-size: 2vw;
     margin: 0 0 1.8vw;
   }
-
   h2 {
     font-size: 1.6vw;
     margin: 1.6vw 0 0.8vw;
   }
-
   h3 {
     font-size: 1.45vw;
     margin: 1.4vw 0 0.6vw;
   }
-
   p {
     margin: 0 0 1vw;
   }
-
   ul {
     padding-left: 1.2vw;
     margin: 0 0 1vw;
   }
 }
-
 .content-box strong,
 .welcome-box strong {
   font-weight: inherit;
 }
-
 .content-box u {
   text-underline-offset: 2px;
 }
-
 /* Mobile */
-
 @media (max-width: 600px) {
   .nav {
     gap: 10px;
     right: 8px;
   }
-
   .nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-
     width: 58px;
     height: 34px;
-
     text-align: center;
     white-space: normal;
     line-height: 1.05;
     font-size: 12px;
   }
-
   .logo {
     top: -10px;
     left: 10px;
-    width: 80px;
-    height: 80px;
+    width: 104px;
+    height: 104px;
   }
-
   .wrapper-main {
-    padding-top: 90px;
+    padding-top: 110px;
   }
-
   .welcome-box {
     width: 90%;
     max-width: 320px;
     padding: 22px;
     font-size: 11px;
-
     h1 {
       font-size: 13px;
       margin-bottom: 14px;
     }
-
     p {
       margin-bottom: 10px;
     }
   }
-
   .content-box {
     width: 90%;
     max-width: 500px;
     padding: 22px;
     font-size: 11px;
     margin-bottom: 60px;
-
     h1 {
       font-size: 16px;
       margin-bottom: 14px;
     }
-
     h2 {
       font-size: 13px;
     }
-
     h3 {
       font-size: 12px;
     }
-
     p {
       margin-bottom: 10px;
     }

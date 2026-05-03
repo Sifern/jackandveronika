@@ -34,7 +34,7 @@ html, body {
 
 .wrapper-masthead {
   height: clamp(55px, 4vw, 80px);
-  margin-top: clamp(20px, 1.5vw, 32px);
+  margin-top: clamp(35px, 1.5vw, 32px);
   border: 2px solid #222;
   background: rgba(245, 247, 239, 0.9);
 }
@@ -49,8 +49,8 @@ html, body {
 .logo {
   position: absolute;
 
-  width: clamp(90px, 6vw, 120px);
-  height: clamp(90px, 6vw, 120px);
+  width: clamp(120px, 6vw, 120px);
+  height: clamp(120px, 6vw, 120px);
 
   top: 50%;
   left: clamp(10px, 1vw, 20px);

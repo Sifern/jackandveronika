@@ -62,7 +62,7 @@ permalink: /activities/
       those of you who’s been wanting to try climbing outdoors or just curious
       about the whole thing!
       <br>
-      We’ll have guides there with equipment to borrow & pre-set ropes — so this
+      We’llhave guides there with equipment to borrow & pre-set ropes — so this
       is open to complete beginners as well as anyone who’s already tried climbing
       in a gym.
       <br>

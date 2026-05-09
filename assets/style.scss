@@ -127,8 +127,13 @@ html, body {
     margin: 1.6vw 0 0.8vw;
   }
   h3 {
-    font-size: 1.45vw;
-    margin: 1.4vw 0 0.6vw;
+    font-size: 1.6vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 1.8vw 0 0.6vw;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 0.3vw;
   }
   p {
     margin: 0 0 1vw;
@@ -140,7 +145,8 @@ html, body {
 }
 .content-box strong,
 .welcome-box strong {
-  font-weight: inherit;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.95);
 }
 .content-box u {
   text-underline-offset: 2px;
@@ -198,7 +204,13 @@ html, body {
       font-size: 13px;
     }
     h3 {
-      font-size: 12px;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 14px 0 6px;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 3px;
     }
     p {
       margin-bottom: 10px;

@@ -23,24 +23,24 @@ permalink: /registry/
 
   <p>
     <strong>
-    - Any adventure book which you think is the best adventure book ever
-    - A restaurant tip anywhere in the world
-    - An activity you like! Bonus points if you join as well!
-    - Anything with a horse on it
-    - Anything with pistachios in it (this will only make Veronika happy)
-    - A small aircraft, perhaps a Diamond DA-40 NG (this will only make Jack happy)
-    - Any kind of a fun subscription (wine of the month? High-speed fibre internet?)
-    - A tip of your favourite climbing route
-    - A really good snack (or a recipe for one)
-    - A sailing lesson
-    - A film roll of pictures you take during the wedding weekend (cameras to be provided)
-    - A thorough medical check-up (we’re not getting younger)
-    - A really good cocktail (you have to make it)
-    - A ticket (could be concert, lottery, festival, or you pay our next parking ticket)
-    - A nice handwritten note
-    - A song
-    - A mixtape
-    - You could teach us something 
+    - Any adventure book which you think is the best adventure book ever <br>
+    - A restaurant tip anywhere in the world <br>
+    - An activity you like! Bonus points if you join as well! <br>
+    - Anything with a horse on it <br>
+    - Anything with pistachios in it (this will only make Veronika happy) <br>
+    - A small aircraft, perhaps a Diamond DA-40 NG (this will only make Jack happy) <br>
+    - Any kind of a fun subscription (wine of the month? High-speed fibre internet?) <br>
+    - A tip of your favourite climbing route <br>
+    - A really good snack (or a recipe for one) <br>
+    - A sailing lesson <br>
+    - A film roll of pictures you take during the wedding weekend (cameras to be provided) <br>
+    - A thorough medical check-up (we’re not getting younger) <br>
+    - A really good cocktail (you have to make it) <br>
+    - A ticket (could be concert, lottery, festival, or you pay our next parking ticket) <br>
+    - A nice handwritten note <br>
+    - A song <br>
+    - A mixtape <br>
+    - You could teach us something  <br>
     - You could make us something 
     </strong>
   </p>

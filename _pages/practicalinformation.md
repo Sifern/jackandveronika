@@ -6,7 +6,7 @@ permalink: /practicalinformation/
 <div class="content-box compact-content-box">
   <p><strong>Here is all we can currently think of in terms of practicalities - please let us know if you have any questions.</strong></p>
 
-  <p><strong><u>1. Schedule</u></strong></p>
+  <h3><u>1. Schedule</u></h3>
 
   <h3>Friday, August 21<sup>st</sup></h3>
 
@@ -35,7 +35,7 @@ permalink: /practicalinformation/
   <tr><td>9.00 – 11.00</td><td>Breakfast at Trevarefabrikken</td></tr>
 </table>
 
-  <p><strong><u>2. Dresscode</u></strong></p>
+  <h3><u>2. Dresscode</u></h3>
 
   <p>
       We are not for dress codes strictly speaking, so please just wear whatever
@@ -44,7 +44,7 @@ permalink: /practicalinformation/
       clothes & good walking shoes.
   </p>
 
-  <p><strong><u>3. Weather / packing list</u></strong></p>
+  <h3><u>3. Weather / packing list</u></h3>
 
   <p>
       As you will have seen zooming out on Google maps, the Lofoten are way up north, and the weather can be unpredictable.<br>
@@ -54,7 +54,7 @@ permalink: /practicalinformation/
       Weather-permitting we will have our ceremony outside and head back inside for the rest of the evening on Saturday.
   </p>
 
-  <p><strong><u>4. Allergies / anything else we need to know to not kill you</u></strong></p>
+  <h3><u>4. Allergies / anything else we need to know to not kill you</u></h3>
 
   <p>
       We don’t usually organize a camp for a big group of our best friends, so if you have any allergies or anything else 

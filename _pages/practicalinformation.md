@@ -24,7 +24,6 @@ permalink: /practicalinformation/
       <strong>10.00 – ~14.00:</strong> Camp activity of choice!<br>
       <strong>14.00 – ~17.00:</strong> Time to get ready (nap optional)<br>
       <strong>17.00 – 2.00:</strong> Veronika and Jack get married
-    </strong>
   </p>
 
   <h3> Sunday, August 23<sup>nd</sup></h3>
@@ -46,9 +45,9 @@ permalink: /practicalinformation/
 
   <p>
       As you will have seen zooming out on Google maps, the Lofoten are way up north, and the weather can be unpredictable.<br>
-      We sincerely hope to get some sun during the day which would mean highs of +17-20 degrees Celsius, 
+      We  hope to get some sun during the day which would mean highs of +17-20 degrees Celsius, 
       but make sure to pack a good rain jacket and some layers in case it gets chillier, especially in the evening. 
-      If you’re wearing a dress, definitely do bring a long-sleeved cover for the night! <br>
+      If you’re wearing a dress, do bring a long-sleeved cover for the night! <br>
       Weather-permitting we will have our ceremony outside and head back inside for the rest of the evening on Saturday.
   </p>
 

@@ -8,7 +8,7 @@ permalink: /practicalinformation/
 
   <p><strong><u>1. Schedule</u></strong></p>
 
-  <p><strong>Friday, August 21<sup>st</sup></strong></p>
+  <h3>Friday, August 21<sup>st</sup></h3>
 
   <p>
       <strong>17:00 - late: Welcome dinner at Trevarefabrikken</strong><br>
@@ -16,7 +16,7 @@ permalink: /practicalinformation/
       Should you face delays getting to camp on Friday - please let us know. (This will not disqualify you from further activities)
   </p>
 
-  <p><strong>Saturday, August 22<sup>nd</sup></strong></p>
+  <h3>Saturday, August 22<sup>nd</sup></h3>
 
   <p> 
       <strong> 8.00 – 10.00:</strong> Breakfast at <u>Trevarefabrikken</u><br>
@@ -27,7 +27,7 @@ permalink: /practicalinformation/
     </strong>
   </p>
 
-  <p><strong>Sunday, August 23<sup>nd</sup></strong></p>
+  <h3> Sunday, August 23<sup>nd</sup></h3>
 
   <p>
       <strong>9.00 – 11.00:</strong> Breakfast at <u>Trevarefabrikken</u>

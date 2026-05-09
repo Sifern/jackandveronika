@@ -10,8 +10,7 @@ permalink: /registry/
 
   <p>
     <strong>
-      None of you have to give us gifts (truly!) — you’re already flying to end
-      of the world, that’s kind of a big gift!!
+      Each and every one of you is giving us a massive gift by joining us this summer. We have way too many things in our lives already, and would be happy for you to not make that problem worse. 
     </strong>
   </p>
 
@@ -24,21 +23,30 @@ permalink: /registry/
 
   <p>
     <strong>
-      - An adventure book you think is the best adventure book ever<br>
-      - A restaurant tip anywhere in the world and see if we make it there<br>
-      - An activity you like! Bonus points if you join as well!<br>
-      - Anything with a horse on it<br>
-      - Anything with pistachios in it (V-centered)<br>
-      - Plane fuel (J-centered)<br>
-      - Any kind of a fun subscription<br>
-      - Your favourite climbing route<br>
-      - A really good snack (or a recipe thereof)<br>
-      - A sailing lesson (cause we need more hobby’s)<br>
-      - A film roll of pictures you take during the wedding weekend<br>
-      - A medical check-up (we’re not getting younger)<br>
-      - A really good cocktail (you have to make it)<br>
-      - A ticket (could be concert, lottery, festival, or you pay our next parking ticket)<br>
-      - Coffee beans or protein powder
+    - Any adventure book which you think is the best adventure book ever
+    - A restaurant tip anywhere in the world
+    - An activity you like! Bonus points if you join as well!
+    - Anything with a horse on it
+    - Anything with pistachios in it (this will only make Veronika happy)
+    - A small aircraft, perhaps a Diamond DA-40 NG (this will only make Jack happy)
+    - Any kind of a fun subscription (wine of the month? High-speed fibre internet?)
+    - A tip of your favourite climbing route
+    - A really good snack (or a recipe for one)
+    - A sailing lesson
+    - A film roll of pictures you take during the wedding weekend (cameras to be provided)
+    - A thorough medical check-up (we’re not getting younger)
+    - A really good cocktail (you have to make it)
+    - A ticket (could be concert, lottery, festival, or you pay our next parking ticket)
+    - A nice handwritten note
+    - A song
+    - A mixtape
+    - You could teach us something 
+    - You could make us something 
     </strong>
   </p>
+
+  <p>
+    To be clear, we will not be writing any thank-you notes for gifts provided but that should not be taken as a lack of gratitude. We just hate writing thank-you notes. 
+  </p>
+  
 </div>

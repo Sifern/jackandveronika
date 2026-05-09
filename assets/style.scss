@@ -144,8 +144,14 @@ html, body {
     margin: 0 0 1.8vw;
   }
   h2 {
-    font-size: 1.6vw;
-    margin: 1.6vw 0 0.8vw;
+   font-size: 1.7vw;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 2.2vw 0 0.8vw;
+  border-bottom: 2px solid rgba(255,255,255,0.6);
+  padding-bottom: 0.4vw;
+}
   }
   h3 {
     font-size: 1.6vw;
@@ -246,8 +252,10 @@ html, body {
       margin-bottom: 14px;
     }
     h2 {
-      font-size: 13px;
-    }
+      font-size: 15px;
+      margin: 16px 0 8px;
+      padding-bottom: 4px;
+}
     h3 {
     font-size: 14px;
     font-weight: 900;

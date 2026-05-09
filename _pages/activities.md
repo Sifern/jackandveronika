@@ -3,5 +3,4 @@ layout: default
 permalink: /activities/
 ---
 
-<div data-youform-embed data-form='jpnvsvwg' data-base-url='https://app.youform.com' data-width='100%' data-height='700'></div>
-<script src="https://app.youform.com/embed/embed.js" async></script>
+<iframe src='https://app.youform.com/forms/jpnvsvwg' loading='lazy' width='100%' height='700' frameborder='0' marginheight='0' marginwidth='0' style='border:none;'></iframe>

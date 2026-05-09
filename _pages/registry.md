@@ -5,7 +5,7 @@ permalink: /registry/
 
 <div class="content-box compact-content-box">
   <p style="text-align: center;">
-    <strong>Gifts?!</strong>
+    <u><strong>Gifts?!</strong></u>
   </p>
 
   <p>

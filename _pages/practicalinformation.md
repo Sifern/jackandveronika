@@ -10,27 +10,30 @@ permalink: /practicalinformation/
 
   <h3>Friday, August 21<sup>st</sup></h3>
 
+<table class="schedule-table">
+  <tr><td>17:00 – late</td><td>Welcome dinner at Trevarefabrikken</td></tr>
+</table>
+
   <p>
-      <strong>17:00 - late: Welcome dinner at Trevarefabrikken</strong><br>
       We will kick off the weekend with a casual welcome dinner & drinks and we hope to see you all at <u>Trevarefabrikken</u> from 17.00.<br>
       Should you face delays getting to camp on Friday - please let us know. (This will not disqualify you from further activities)
   </p>
 
   <h3>Saturday, August 22<sup>nd</sup></h3>
 
-  <p> 
-      <strong> 8.00 – 10.00:</strong> Breakfast at <u>Trevarefabrikken</u><br>
-      <strong>10.00:</strong> Meeting at Trevarefabrikken for activities<br>
-      <strong>10.00 – ~14.00:</strong> Camp activity of choice!<br>
-      <strong>14.00 – ~17.00:</strong> Time to get ready (nap optional)<br>
-      <strong>17.00 – 2.00:</strong> Veronika and Jack get married
-  </p>
+<table class="schedule-table">
+  <tr><td>8.00 – 10.00</td><td>Breakfast at Trevarefabrikken</td></tr>
+  <tr><td>10.00</td><td>Meeting at Trevarefabrikken for activities</td></tr>
+  <tr><td>10.00 – ~14.00</td><td>Camp activity of choice!</td></tr>
+  <tr><td>14.00 – ~17.00</td><td>Time to get ready (nap optional)</td></tr>
+  <tr><td>17.00 – 2.00</td><td>Veronika and Jack get married</td></tr>
+</table>
 
-  <h3> Sunday, August 23<sup>nd</sup></h3>
+  <h3>Sunday, August 23<sup>rd</sup></h3>
 
-  <p>
-      <strong>9.00 – 11.00:</strong> Breakfast at <u>Trevarefabrikken</u>
-  </p>
+<table class="schedule-table">
+  <tr><td>9.00 – 11.00</td><td>Breakfast at Trevarefabrikken</td></tr>
+</table>
 
   <p><strong><u>2. Dresscode</u></strong></p>
 

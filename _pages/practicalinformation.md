@@ -16,9 +16,10 @@ permalink: /practicalinformation/
       Should you face delays getting to camp on Friday - please let us know. (This will not disqualify you from further activities)
   </p>
 
-  <p><strong>Saturday, August 22<sup>nd</sup></strong></p>
+  <p></p>
 
   <p>
+      <strong>Saturday, August 22<sup>nd</sup></strong><br>
       <strong> 8.00 – 10.00:</strong> Breakfast at <u>Trevarefabrikken</u><br>
       <strong>10.00:</strong> Meeting at Trevarefabrikken for activities<br>
       <strong>10.00 – ~14.00:</strong> Camp activity of choice!<br>

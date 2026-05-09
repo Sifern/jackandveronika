@@ -190,8 +190,7 @@ html, body {
     font-size: 12px;
   }
   .nav-home {
-  left: 125px;
-  font-size: 12px;
+    display: none;
   }
   .logo {
     top: -10px;
@@ -199,6 +198,11 @@ html, body {
     width: 104px;
     height: 104px;
   }
+  .logo-link {
+  left: 10px;
+  background: #f5f7ef;
+  border-radius: 50%;
+}
   .wrapper-main {
     padding-top: 110px;
   }

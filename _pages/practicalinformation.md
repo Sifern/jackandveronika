@@ -66,7 +66,7 @@ permalink: /practicalinformation/
 
   <p>
       We don’t usually organize a camp for a big group of our best friends, so if you have any allergies or anything else 
-      we need to be aware of to make sure you have a good time & don’t have to call your parents to pick you up, please let us know 
+      we need to be aware of to make sure you have a good time, please let us know 
       (even if you have already, please reach out again – better safe than sorry!).
   </p>
   <p>
